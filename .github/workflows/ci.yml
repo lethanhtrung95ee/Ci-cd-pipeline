@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java
-        run: javac src/com/example/Sum.java src/com/example/SumTest.java
+        run: javac src/Sum.java src/SumTest.java
 
       - name: Run Tests
-        run: java -cp out com.example.SumTest
+        run: java -cp out SumTest
