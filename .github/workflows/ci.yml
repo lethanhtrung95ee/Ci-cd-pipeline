@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java
-        run:  mkdir -p bin && javac -d bin src/Sum.java src/SumTest.java
+        run:  javac src/Sum.java src/SumTest.java
 
       - name: Run Tests
-        run: java -cp bin SumTest
+        run: java SumTest
