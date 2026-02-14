@@ -1,3 +1,5 @@
+package com.example;
+
 public class SumTest {
     public static void main(String[] args) {
         int result = Sum.add(2, 3);
