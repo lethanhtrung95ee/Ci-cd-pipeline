@@ -22,4 +22,4 @@ jobs:
         run: javac src/Sum.java src/SumTest.java
 
       - name: Run Tests
-        run: java SumTest
+        run: java -cp out SumTest
